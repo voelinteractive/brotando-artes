@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    color: #fff;
+    /* user-select: none: não permite que usuário selecione o texto da página para copia-la; */
+    user-select: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    /*image-rendering: Dimensiona a imagem sem perder qualidade  */
+    image-rendering: pixelated;
+    display: block;
+    max-width: 100%;
+}
+
+html {
+    /* a cada 1rem será considera 10px */
+    font-size: 62.5%;
+}
+
+html,
+body {
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 128rem;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.container-collumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 128rem;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+/* container setado para blocos de textos */
+
+
+/* não utilizado */
+
+.container-one {
+    width: 128rem;
+    max-width: 85%;
+    flex-direction: column;
+}
+
+.title {
+    color: #000000;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+.sub-title {
+    color: #767676;
+    line-height: 3.25rem;
+}
+
+p.sub-title::after {
+    content: "";
+    display: block;
+    background-color: #70AE39;
+    width: 15rem;
+    height: 0.65rem;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+
+.paragraf-content {
+    color: #767676;
+    line-height: 3.25rem;
+    font-size: 1.6rem;
+}
+
+a.btn {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.65rem;
+    background-color: #6AB42F;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 15px;
+    width: 20rem;
+    letter-spacing: 0.25rem;
+    text-transform: uppercase;
+    margin: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+/* Utilizado antes dos btn's */
+
+span.before-btn {
+    display: block;
+    /*  margin-bottom: 3%; */
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+
+/* 
+Estilo das páginas jardinagem e madeira - 
+seta a cor do span para preto, pois o background é branco.
+*/
+
+section.before-btn-on-white-bg div.hero-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.before-btn-on-white-bg div.hero-item span {
+    margin-top: 3rem;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

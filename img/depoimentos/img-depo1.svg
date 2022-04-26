@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_69" data-name="Rectangle 69" width="60" height="60" transform="translate(409 5398)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="img-depo1" transform="translate(-409 -5398)" clip-path="url(#clip-path)">
+    <path id="flower1" d="M2.5,37.5c10.188-2.8,23.775,1.263,27.5,15,4.962-14.847,19.882-17.628,27.5-15C51.333,41.31,48.757,60,30,60S8.782,41.322,2.5,37.5ZM23.007,7.3a7.334,7.334,0,0,1,14.667,0A7.334,7.334,0,0,1,45.007,20a7.334,7.334,0,0,1-7.333,12.7,7.334,7.334,0,0,1-14.667,0A7.334,7.334,0,0,1,15.675,20,7.334,7.334,0,0,1,23.007,7.3ZM30,13.75A6.25,6.25,0,1,1,23.75,20,6.252,6.252,0,0,1,30,13.75Z" transform="translate(409 5398)" fill="#618f37" fill-rule="evenodd"/>
+  </g>
+</svg>

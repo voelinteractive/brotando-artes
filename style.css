@@ -2,11 +2,11 @@
 theme name: brotandoarte
 */
 
-@import './assets/css/reset.css';
-@import './assets/css/header.css';
-@import './assets/css/page-home.css';
-@import './assets/css/responsivo.css';
-@import './assets/css/glide/galeria.css';
-@import './assets/css/footer.css';
-@import './assets/css/glide/glide.core.min.css';
-@import './assets/css/glide/glide.theme.min.css';
+@import 'css/reset.css';
+@import 'css/header.css';
+@import 'css/page-home.css';
+@import 'css/responsivo.css';
+@import 'css/glide/galeria.css';
+@import 'css/footer.css';
+@import 'css/glide/glide.core.min.css';
+@import 'css/glide/glide.theme.min.css';

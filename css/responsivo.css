@@ -1,0 +1,95 @@
+  @media (max-width: 1023px) {
+      html {
+          font-size: 50%;
+      }
+      nav.menu {
+          margin-top: 2rem;
+      }
+      header.header div.container-top {
+          height: 4rem;
+      }
+      header.header div.container-top div.container-row div.social-medias ul li {
+          padding: 1px;
+      }
+      header.header div.container-top div.container-row div.contatos ul li img {
+          width: 14px;
+      }
+      /*   header.header div.container-top div.container div.social-medias ul li {} */
+  }
+  
+  @media (max-width: 1024px) {
+      nav.menu {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 4rem;
+      }
+  }
+  
+  @media (max-width: 414px) {
+      nav.menu {
+          margin-bottom: 6rem;
+      }
+  }
+  
+  @media(max-width:480px) {
+      nav.menu div.menu-itens {
+          margin-top: 2rem;
+          position: relative;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          -ms-overflow-style: -ms-autohiding-scrollbar;
+      }
+      nav.menu div.menu-itens ul {
+          justify-content: initial;
+      }
+  }
+  
+  @media(max-width:477px) {
+      /* aumenta a div verde com os icones das medias sociais e contatos */
+      header.header div.container-top {
+          height: 6rem;
+      }
+      header.header div.container-top div.container-row {
+          justify-content: center;
+      }
+      header.header div.container-top div.container-row div.contatos {
+          display: none;
+      }
+      @media(max-width:360px) {
+          header.header div.container-top {
+              height: 4rem;
+          }
+      }
+  }
+  
+  @media(max-width:680px) {
+      section.fixed-parallax div.contend div.contend-description {
+          width: 100%;
+          max-width: 80%;
+          justify-content: center;
+          margin: 0 auto;
+      }
+      section.fixed-parallax div.contend div.contend-description p {
+          font-size: 1.9rem;
+      }
+  }
+  
+  @media(max-width:550px) {
+      section.portifolio div.btn-container ul {
+          flex-direction: column;
+      }
+  }
+  
+  @media(max-width:391px) {
+      footer.footer div.container-row div.footer-item {
+          width: 90%;
+          margin: 10px auto;
+      }
+      footer.footer div.container-row div.footer-item ul li {
+          margin: 4px;
+      }
+      footer.footer div.container-row div.footer-copy {
+          flex-direction: column;
+          justify-content: center;
+      }
+  }
