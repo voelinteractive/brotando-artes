@@ -1,0 +1,12 @@
+/* 
+theme name: brotandoarte
+*/
+
+@import './assets/css/reset.css';
+@import './assets/css/header.css';
+@import './assets/css/page-home.css';
+@import './assets/css/responsivo.css';
+@import './assets/css/glide/galeria.css';
+@import './assets/css/footer.css';
+@import './assets/css/glide/glide.core.min.css';
+@import './assets/css/glide/glide.theme.min.css';

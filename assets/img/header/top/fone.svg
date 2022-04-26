@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_51" data-name="Rectangle 51" width="30" height="30" transform="translate(1354 28)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="fone" transform="translate(-1354 -28)" clip-path="url(#clip-path)">
+    <path id="call" d="M26.667,28.276l-4.4-8.494c-.01,0-2.468,1.213-2.58,1.264-2.8,1.358-8.5-9.775-5.761-11.243l2.6-1.283L12.162,0,9.529,1.3c-9,4.694,5.291,32.478,14.5,28.269C24.181,29.5,26.657,28.281,26.667,28.276Z" transform="translate(1352.333 28)" fill="#fff"/>
+  </g>
+</svg>
